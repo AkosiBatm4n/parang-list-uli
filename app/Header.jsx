@@ -9,12 +9,12 @@ const Header = () => {
   return (<div>
     {data.map((data, key)=>(
         <div>
-      <ol key={data.key}>
+     <ol key={key.data}>
         <li  key={key}> {data.name}</li>
         <li  key={key}> {data.username}</li>
         <li  key={key}> {data.email}</li>
         <li  key={key}> {data.phone}</li>
-       </ol>
+        </ol>
         </div>
 
 
